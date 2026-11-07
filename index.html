@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ellite Car Studio — הכהיית שמשות, PPF וציפוי קרמי באשדוד</title>
+<meta name="description" content="Ellite Car Studio, אשדוד: הכהיית שמשות, הדבקת PPF וציפוי קרמי לרכב. Тонировка, ППФ и керамика в Ашдоде.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800&family=Unbounded:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--accent:#3B8BFF}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#0B0C0E;color:#F2F3F5;-webkit-text-size-adjust:100%}
+a{text-decoration:none;color:inherit}
+img{max-width:100%}
+.page[hidden]{display:none}
+.page{font-size:18px;line-height:1.6;font-family:var(--body)}
+.lang-he{--head:'Heebo',system-ui,sans-serif;--body:'Heebo','Inter',system-ui,sans-serif;--hw:700;--hw1:800;--upper:none;--ls:0}
+.lang-ru{--head:'Unbounded',sans-serif;--body:'Inter',system-ui,sans-serif;--hw:600;--hw1:700;--upper:uppercase;--ls:.14em}
+.wrap{max-width:1200px;margin:0 auto;padding-left:24px;padding-right:24px}
+h1,h2,h3{margin:0}
+h1,h2,.brand,.num,.circle{font-family:var(--head)}
+h2{font-weight:var(--hw);font-size:clamp(26px,3.2vw,42px);line-height:1.2}
+h3{font-weight:600;font-size:19px}
+p{margin:0}
+.eyebrow{font-size:14px;color:var(--accent);font-weight:600;text-transform:var(--upper);letter-spacing:var(--ls)}
+.nav{border-bottom:1px solid #1F2127}
+.nav-in{padding-top:20px;padding-bottom:20px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px}
+.brand{font-weight:700;font-size:19px;letter-spacing:.02em}
+.nav-links{display:flex;flex-wrap:wrap;align-items:center;gap:28px}
+.nav-link{color:#A9ADB5;font-size:16px}
+.nav-link:hover{color:#fff}
+.btn{display:inline-flex;align-items:center;gap:10px;min-height:56px;padding:0 32px;border-radius:999px;background:var(--accent);color:#04122A;font-weight:600;font-size:18px;border:0}
+.btn:hover{filter:brightness(1.1)}
+.btn-sm{min-height:44px;padding:0 20px;font-size:16px}
+.btn-ghost{background:transparent;color:#F2F3F5;border:1px solid #3A3D45;font-weight:500}
+.btn-ghost:hover{filter:none;border-color:#6B7080}
+.btn-row{display:flex;flex-wrap:wrap;gap:16px;align-items:center}
+.lang-btn{display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;border:1px solid #3A3D45;background:transparent;color:#F2F3F5;font-family:inherit;font-size:15px;font-weight:500;cursor:pointer}
+.lang-btn:hover{border-color:#6B7080}
+a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.hero{padding-top:80px;padding-bottom:96px;display:flex;flex-wrap:wrap;align-items:center;gap:56px}
+.hero-text{flex:1 1 480px;min-width:0;display:flex;flex-direction:column;gap:28px}
+h1{font-weight:var(--hw1);font-size:clamp(34px,4.8vw,60px);line-height:1.1}
+.lead{color:#A9ADB5;font-size:20px;max-width:520px}
+.hero-img{flex:1 1 420px;min-width:0}
+.hero-img img{display:block;width:100%;height:auto;aspect-ratio:4/3;border-radius:24px;border:1px solid #2A2D35;object-fit:cover;object-position:50% 68%}
+.band{background:#101216;border-top:1px solid #1F2127;border-bottom:1px solid #1F2127}
+.sec{padding-top:96px;padding-bottom:96px;display:flex;flex-direction:column;gap:48px}
+.sec-head{display:flex;flex-direction:column;gap:12px;max-width:640px}
+.cards{display:flex;flex-wrap:wrap;gap:24px}
+.card{flex:1 1 320px;min-width:0;border-radius:24px;border:1px solid #2A2D35;background:#0B0C0E;padding:40px;display:flex;flex-direction:column;gap:20px}
+.card img{display:block;width:100%;height:220px;border-radius:16px;object-fit:cover}
+.card h3{font-family:var(--head);font-weight:var(--hw);font-size:25px}
+.card p{color:#A9ADB5;font-size:17px}
+.card-link{color:var(--accent);font-weight:600}
+.benefits{gap:64px}
+.group{display:flex;flex-direction:column;gap:32px}
+.items{display:flex;flex-wrap:wrap;gap:20px}
+.item{flex:1 1 260px;min-width:0;border-top:1px solid #3A3D45;padding-top:20px;display:flex;flex-direction:column;gap:8px}
+.num{font-size:14px;color:var(--accent)}
+.item p,.step p,.faq-item p{color:#A9ADB5;font-size:17px}
+.steps{display:flex;flex-wrap:wrap;gap:24px}
+.step{flex:1 1 240px;min-width:0;display:flex;flex-direction:column;gap:12px}
+.circle{width:48px;height:48px;border-radius:50%;border:1px solid var(--accent);color:var(--accent);display:flex;align-items:center;justify-content:center;font-size:16px}
+.gallery{display:flex;flex-wrap:wrap;gap:16px}
+.gallery img{display:block;flex:1 1 260px;min-width:0;width:100%;height:340px;border-radius:16px;border:1px solid #2A2D35;object-fit:cover}
+.faq{flex-direction:row;flex-wrap:wrap}
+.faq h2{flex:1 1 280px;min-width:0}
+.faq-list{flex:2 1 480px;min-width:0;display:flex;flex-direction:column;gap:28px}
+.faq-item{border-bottom:1px solid #2A2D35;padding-bottom:28px;display:flex;flex-direction:column;gap:8px}
+.cta{border-radius:32px;border:1px solid #2A2D35;background:#101216;padding:64px 40px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:24px}
+.cta h2{max-width:720px}
+.cta p{color:#A9ADB5;max-width:520px}
+.foot{border-top:1px solid #1F2127}
+.foot-in{padding-top:32px;padding-bottom:32px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;color:#8A8F99;font-size:15px}
+.foot a:hover{color:#fff}
+@media (max-width:640px){
+.hero{padding-top:48px;padding-bottom:64px;gap:40px}
+.sec{padding-top:64px;padding-bottom:64px;gap:36px}
+.card{padding:28px}
+.cta{padding:40px 24px}
+.gallery img{height:260px}
+.nav-links{gap:16px}
+}
+</style>
+</head>
+<body>
+<div class="page lang-he" id="page-he" lang="he" dir="rtl">
+<header class="nav"><div class="wrap nav-in">
+<div class="brand">Ellite Car Studio</div>
+<nav class="nav-links" aria-label="Menu">
+<a class="nav-link" href="#services-he">שירותים</a>
+<a class="nav-link" href="#benefits-he">יתרונות</a>
+<a class="nav-link" href="#process-he">איך עובדים</a>
+<a class="nav-link" href="#faq-he">שאלות נפוצות</a>
+<button type="button" class="lang-btn" data-lang="ru" lang="ru">Русский</button>
+<a class="btn btn-sm" href="https://wa.me/972544557817">כתבו לנו ב-WhatsApp</a>
+</nav></div></header>
+<main>
+<section class="wrap hero">
+<div class="hero-text">
+<div class="eyebrow">דיטיילינג · הכהיית שמשות · PPF · ציפוי קרמי</div>
+<h1>הגנה וסטייל לרכב שלכם</h1>
+<p class="lead">הכהיית שמשות, הדבקת PPF להגנה על הצבע וציפוי קרמי. נתאים את החומר לרכב ולצרכים שלכם, ונדבר על הפרטים והמחיר ב-WhatsApp.</p>
+<div class="btn-row">
+<a class="btn" href="https://wa.me/972544557817"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 11.5a8 8 0 0 1-11.9 7L4 20l1.6-4A8 8 0 1 1 20 11.5z"></path></svg>לפרטים ב-WhatsApp</a>
+<a class="btn btn-ghost" href="#services-he">לצפייה בשירותים</a>
+</div></div>
+<div class="hero-img"><img src="images/hero.jpg" alt="מרצדס AMG שחורה לאחר הכהיית שמשות" width="1440" height="1800" fetchpriority="high"></div>
+</section>
+<section class="band" id="services-he"><div class="wrap sec">
+<div class="sec-head"><div class="eyebrow">שירותים</div><h2>שלושה תחומים, סטנדרט אחד של איכות</h2></div>
+<div class="cards">
+<article class="card">
+<img src="images/tint.jpg" alt="מתקינים פילם להכהיית החלון האחורי" loading="lazy" style="object-position:50% 45%">
+<h3>הכהיית שמשות</h3><p>פילם לחלונות הצד, לחלון האחורי ולפס בשמשה הקדמית. נתאים את רמת ההכהיה ואת סוג הפילם לצרכים שלכם.</p>
+<a class="card-link" href="https://wa.me/972544557817">שאלו על הכהיית שמשות ←</a>
+</article>
+<article class="card">
+<img src="images/ppf.jpg" alt="הדבקת PPF על מגן קדמי" loading="lazy" style="object-position:50% 45%">
+<h3>הדבקת PPF על הרכב</h3><p>ציפוי הגנה שקוף מפוליאורטן: הדבקה מלאה או חלקית, למשל מכסה מנוע, מגן קדמי, כנפיים, מראות וסיפים.</p>
+<a class="card-link" href="https://wa.me/972544557817">שאלו על PPF ←</a>
+</article>
+<article class="card">
+<img src="images/ceramic.jpg" alt="רכב שחור עם ציפוי קרמי וברק עמוק" loading="lazy" style="object-position:50% 40%">
+<h3>ציפוי קרמי לרכב</h3><p>ציפוי קרמי לצבע הרכב: ברק עמוק, אפקט הידרופובי והגנה על שכבת הלק. מבוצע לאחר הכנת הרכב.</p>
+<a class="card-link" href="https://wa.me/972544557817">שאלו על ציפוי קרמי ←</a>
+</article>
+</div></div></section>
+<section class="wrap sec benefits" id="benefits-he">
+<div class="group"><h2>יתרונות הכהיית שמשות</h2><div class="items">
+<div class="item"><div class="num">01</div><h3>פחות חום ברכב</h3><p>הפילם מפחית את החימום מהשמש, ובקיץ נעים יותר ברכב.</p></div>
+<div class="item"><div class="num">02</div><h3>הגנה מקרינת UV</h3><p>פחות דהייה של הריפוד והפלסטיק, והעור מוגן מהשמש.</p></div>
+<div class="item"><div class="num">03</div><h3>פרטיות</h3><p>חפצים ונוסעים מוסתרים מעיניים זרות.</p></div>
+<div class="item"><div class="num">04</div><h3>נוחות בנהיגה</h3><p>פחות סינוור מהשמש ומאורות של רכבים אחרים.</p></div>
+</div></div>
+<div class="group"><h2>יתרונות הדבקת PPF</h2><div class="items">
+<div class="item"><div class="num">01</div><h3>הגנה מפגיעות חצץ</h3><p>הפילם סופג את פגיעות החצץ והאבנים במקום הצבע.</p></div>
+<div class="item"><div class="num">02</div><h3>הגנה משריטות</h3><p>שריטות קלות נשארות על הפילם ולא על הצבע.</p></div>
+<div class="item"><div class="num">03</div><h3>שמירה על הצבע המקורי</h3><p>הלק המקורי נשמר, וזה עוזר במכירה חוזרת.</p></div>
+<div class="item"><div class="num">04</div><h3>גימור מבריק או מט</h3><p>שומר על מראה הרכב או משנה אותו למט.</p></div>
+</div></div>
+<div class="group"><h2>יתרונות ציפוי קרמי</h2><div class="items">
+<div class="item"><div class="num">01</div><h3>ברק עמוק</h3><p>צבע הרכב נראה עשיר יותר והמשטח חלק כמו מראה.</p></div>
+<div class="item"><div class="num">02</div><h3>אפקט הידרופובי</h3><p>מים ולכלוך מחליקים מהרכב, והוא נשאר נקי יותר זמן.</p></div>
+<div class="item"><div class="num">03</div><h3>הגנה על הלק</h3><p>הציפוי מגן מפני שמש, מלחים וזיהומים יומיומיים.</p></div>
+<div class="item"><div class="num">04</div><h3>טיפוח קל</h3><p>הרחיצה מהירה יותר והלכלוך נשטף בקלות.</p></div>
+</div></div>
+</section>
+<section class="band" id="process-he"><div class="wrap sec">
+<h2>איך עובדים</h2><div class="steps">
+<div class="step"><div class="circle">1</div><h3>כותבים לנו ב-WhatsApp</h3><p>מציינים יצרן, דגם ומה רוצים לעשות.</p></div>
+<div class="step"><div class="circle">2</div><h3>מתאימים פתרון</h3><p>ממליצים על פילם, ונותנים מחיר ולוח זמנים.</p></div>
+<div class="step"><div class="circle">3</div><h3>מבצעים את העבודה</h3><p>הכנת הרכב והתקנה מקצועית ומדויקת.</p></div>
+<div class="step"><div class="circle">4</div><h3>מוסרים את הרכב</h3><p>מציגים את התוצאה ומסבירים איך לתחזק.</p></div>
+</div></div></section>
+<section class="wrap sec"><h2>העבודות שלנו</h2><div class="gallery">
+<img src="images/camry.jpg" alt="טויוטה קאמרי שחורה במוסך לאחר העבודה" loading="lazy" style="object-position:50% 55%">
+<img src="images/infrared.jpg" alt="ייבוש הציפוי הקרמי בעזרת מנורת אינפרא אדום" loading="lazy" style="object-position:50% 60%">
+<img src="images/polish.jpg" alt="מלטש את הרכב לפני הנחת הציפוי" loading="lazy" style="object-position:50% 45%">
+<img src="images/interior.jpg" alt="פנים מרצדס AMG" loading="lazy" style="object-position:30% 50%">
+</div></section>
+<section class="band" id="faq-he"><div class="wrap sec faq">
+<h2>שאלות נפוצות</h2><div class="faq-list">
+<div class="faq-item"><h3>כמה זמן לוקחת העבודה?</h3><p>מכמה שעות ועד כמה ימים, בהתאם לסוג העבודה ולרכב.</p></div>
+<div class="faq-item"><h3>איזו אחריות יש?</h3><p>מ-3 עד 10 שנים, בהתאם לפילם שנבחר.</p></div>
+<div class="faq-item"><h3>כמה זה עולה?</h3><p>המחיר תלוי ברכב ובפילם שנבחר. כתבו לנו ב-WhatsApp ונענה במהירות.</p></div>
+</div></div></section>
+<section class="wrap sec"><div class="cta">
+<h2>גלו מה המחיר לרכב שלכם</h2><p>שלחו לנו יצרן ודגם ב-WhatsApp, ונחזור אליכם עם המלצה ומחיר.</p>
+<a class="btn" href="https://wa.me/972544557817"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 11.5a8 8 0 0 1-11.9 7L4 20l1.6-4A8 8 0 1 1 20 11.5z"></path></svg>כתבו לנו ב-WhatsApp</a>
+</div></section></main>
+<footer class="foot"><div class="wrap foot-in">
+<div>Ellite Car Studio · אשדוד, רחוב העבודה 14</div>
+<div>בין השעות 9:00–18:00 · WhatsApp: <a href="tel:+972544557817" dir="ltr">+972 54-455-7817</a></div>
+</div></footer></div>
+<div class="page lang-ru" id="page-ru" lang="ru" dir="ltr" hidden>
+<header class="nav"><div class="wrap nav-in">
+<div class="brand">Ellite Car Studio</div>
+<nav class="nav-links" aria-label="Menu">
+<a class="nav-link" href="#services-ru">Услуги</a>
+<a class="nav-link" href="#benefits-ru">Преимущества</a>
+<a class="nav-link" href="#process-ru">Как мы работаем</a>
+<a class="nav-link" href="#faq-ru">Вопросы</a>
+<button type="button" class="lang-btn" data-lang="he" lang="he">עברית</button>
+<a class="btn btn-sm" href="https://wa.me/972544557817">Написать в WhatsApp</a>
+</nav></div></header>
+<main>
+<section class="wrap hero">
+<div class="hero-text">
+<div class="eyebrow">Автодетейлинг · тонировка · ППФ · керамика</div>
+<h1>Защита и стиль для вашего автомобиля</h1>
+<p class="lead">Тонировка стёкол, оклейка кузова защитной плёнкой и керамическое покрытие. Подберём материал под вашу машину и задачи, а детали и стоимость обсудим в WhatsApp.</p>
+<div class="btn-row">
+<a class="btn" href="https://wa.me/972544557817"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 11.5a8 8 0 0 1-11.9 7L4 20l1.6-4A8 8 0 1 1 20 11.5z"></path></svg>Узнать в WhatsApp</a>
+<a class="btn btn-ghost" href="#services-ru">Смотреть услуги</a>
+</div></div>
+<div class="hero-img"><img src="images/hero.jpg" alt="Чёрный Mercedes-AMG после тонировки стёкол" width="1440" height="1800" fetchpriority="high"></div>
+</section>
+<section class="band" id="services-ru"><div class="wrap sec">
+<div class="sec-head"><div class="eyebrow">Услуги</div><h2>Три направления, один подход к качеству</h2></div>
+<div class="cards">
+<article class="card">
+<img src="images/tint.jpg" alt="Мастер наклеивает тонировочную плёнку на заднее стекло" loading="lazy" style="object-position:50% 45%">
+<h3>Тонировка стёкол</h3><p>Плёнка для боковых, задних стёкол и лобового (полоса). Подбираем степень затемнения и тип плёнки под ваши задачи.</p>
+<a class="card-link" href="https://wa.me/972544557817">Спросить про тонировку →</a>
+</article>
+<article class="card">
+<img src="images/ppf.jpg" alt="Оклейка бампера защитной плёнкой ППФ" loading="lazy" style="object-position:50% 45%">
+<h3>Оклейка кузова ППФ</h3><p>Прозрачная защитная полиуретановая плёнка: полная оклейка или отдельные зоны, например капот, бампер, крылья, зеркала, пороги.</p>
+<a class="card-link" href="https://wa.me/972544557817">Спросить про ППФ →</a>
+</article>
+<article class="card">
+<img src="images/ceramic.jpg" alt="Чёрный кузов с керамическим покрытием, глубокий блеск" loading="lazy" style="object-position:50% 40%">
+<h3>Керамика для авто</h3><p>Керамическое покрытие кузова: глубокий блеск, гидрофобный эффект и защита лакокрасочного слоя. Наносим после подготовки кузова.</p>
+<a class="card-link" href="https://wa.me/972544557817">Спросить про керамику →</a>
+</article>
+</div></div></section>
+<section class="wrap sec benefits" id="benefits-ru">
+<div class="group"><h2>Преимущества тонировки</h2><div class="items">
+<div class="item"><div class="num">01</div><h3>Меньше жары в салоне</h3><p>Плёнка снижает нагрев от солнца, в машине комфортнее летом.</p></div>
+<div class="item"><div class="num">02</div><h3>Защита от UV-лучей</h3><p>Меньше выгорает обивка и пластик, кожа защищена от солнца.</p></div>
+<div class="item"><div class="num">03</div><h3>Приватность</h3><p>Вещи и пассажиры скрыты от посторонних взглядов.</p></div>
+<div class="item"><div class="num">04</div><h3>Комфорт за рулём</h3><p>Меньше бликов и слепящего света от фар и солнца.</p></div>
+</div></div>
+<div class="group"><h2>Преимущества оклейки ППФ</h2><div class="items">
+<div class="item"><div class="num">01</div><h3>Защита от сколов</h3><p>Плёнка принимает удар камней и песка на себя, а не лак.</p></div>
+<div class="item"><div class="num">02</div><h3>Защита от царапин</h3><p>Мелкие царапины остаются на плёнке, а не на кузове.</p></div>
+<div class="item"><div class="num">03</div><h3>Сохранность лака</h3><p>Родное покрытие сохраняется, это помогает при перепродаже.</p></div>
+<div class="item"><div class="num">04</div><h3>Глянец или мат</h3><p>Сохраняет вид автомобиля или меняет его на матовый.</p></div>
+</div></div>
+<div class="group"><h2>Преимущества керамики</h2><div class="items">
+<div class="item"><div class="num">01</div><h3>Глубокий блеск</h3><p>Цвет кузова выглядит насыщеннее, поверхность зеркально гладкая.</p></div>
+<div class="item"><div class="num">02</div><h3>Гидрофобный эффект</h3><p>Вода и грязь скатываются с кузова, машина дольше остаётся чистой.</p></div>
+<div class="item"><div class="num">03</div><h3>Защита лака</h3><p>Покрытие защищает от солнца, реагентов и бытовых загрязнений.</p></div>
+<div class="item"><div class="num">04</div><h3>Лёгкий уход</h3><p>Мойка проходит быстрее, а загрязнения смываются проще.</p></div>
+</div></div>
+</section>
+<section class="band" id="process-ru"><div class="wrap sec">
+<h2>Как мы работаем</h2><div class="steps">
+<div class="step"><div class="circle">1</div><h3>Пишете в WhatsApp</h3><p>Указываете марку, модель и что хотите сделать.</p></div>
+<div class="step"><div class="circle">2</div><h3>Подбираем решение</h3><p>Советуем плёнку, называем стоимость и сроки.</p></div>
+<div class="step"><div class="circle">3</div><h3>Выполняем работу</h3><p>Подготовка автомобиля и аккуратная установка плёнки.</p></div>
+<div class="step"><div class="circle">4</div><h3>Выдаём автомобиль</h3><p>Показываем результат и рассказываем, как ухаживать.</p></div>
+</div></div></section>
+<section class="wrap sec"><h2>Наши работы</h2><div class="gallery">
+<img src="images/camry.jpg" alt="Чёрная Toyota Camry в студии после работ" loading="lazy" style="object-position:50% 55%">
+<img src="images/infrared.jpg" alt="Нанесение керамики и просушка инфракрасной лампой" loading="lazy" style="object-position:50% 60%">
+<img src="images/polish.jpg" alt="Мастер полирует кузов перед нанесением покрытия" loading="lazy" style="object-position:50% 45%">
+<img src="images/interior.jpg" alt="Салон Mercedes-AMG" loading="lazy" style="object-position:30% 50%">
+</div></section>
+<section class="band" id="faq-ru"><div class="wrap sec faq">
+<h2>Частые вопросы</h2><div class="faq-list">
+<div class="faq-item"><h3>Сколько времени занимает работа?</h3><p>От нескольких часов до нескольких дней, в зависимости от вида работ и автомобиля.</p></div>
+<div class="faq-item"><h3>Какая гарантия?</h3><p>От 3 до 10 лет, в зависимости от выбранной плёнки.</p></div>
+<div class="faq-item"><h3>Сколько стоит?</h3><p>Цена зависит от автомобиля и выбранной плёнки. Напишите нам в WhatsApp, и мы быстро сориентируем.</p></div>
+</div></div></section>
+<section class="wrap sec"><div class="cta">
+<h2>Узнайте стоимость для вашего автомобиля</h2><p>Напишите марку и модель в WhatsApp, и мы ответим с рекомендациями и ценой.</p>
+<a class="btn" href="https://wa.me/972544557817"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 11.5a8 8 0 0 1-11.9 7L4 20l1.6-4A8 8 0 1 1 20 11.5z"></path></svg>Написать в WhatsApp</a>
+</div></section></main>
+<footer class="foot"><div class="wrap foot-in">
+<div>Ellite Car Studio · Ашдод, ул. Авода 14</div>
+<div>Работаем с 9:00 до 18:00 · WhatsApp: <a href="tel:+972544557817" dir="ltr">+972 54-455-7817</a></div>
+</div></footer></div>
+<script>
+(function () {
+  var pages = { he: document.getElementById('page-he'), ru: document.getElementById('page-ru') };
+  var titles = {
+    he: 'Ellite Car Studio \u2014 \u05d4\u05db\u05d4\u05d9\u05d9\u05ea \u05e9\u05de\u05e9\u05d5\u05ea, PPF \u05d5\u05e6\u05d9\u05e4\u05d5\u05d9 \u05e7\u05e8\u05de\u05d9 \u05d1\u05d0\u05e9\u05d3\u05d5\u05d3',
+    ru: 'Ellite Car Studio \u2014 \u0442\u043e\u043d\u0438\u0440\u043e\u0432\u043a\u0430, \u041f\u041f\u0424 \u0438 \u043a\u0435\u0440\u0430\u043c\u0438\u043a\u0430 \u0432 \u0410\u0448\u0434\u043e\u0434\u0435'
+  };
+  function setLang(l) {
+    pages.he.hidden = l !== 'he';
+    pages.ru.hidden = l !== 'ru';
+    document.documentElement.lang = l;
+    document.documentElement.dir = l === 'he' ? 'rtl' : 'ltr';
+    document.title = titles[l];
+    try { localStorage.setItem('lang', l); } catch (e) {}
+  }
+  var start = 'he';
+  try { var s = localStorage.getItem('lang'); if (s === 'ru' || s === 'he') start = s; } catch (e) {}
+  setLang(start);
+  document.querySelectorAll('[data-lang]').forEach(function (b) {
+    b.addEventListener('click', function () { setLang(b.getAttribute('data-lang')); window.scrollTo(0, 0); });
+  });
+})();
+</script>
+</body>
+</html>
